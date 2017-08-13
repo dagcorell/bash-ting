@@ -1,0 +1,7 @@
+
+
+touch filkommando
+touch fil1.txt fil2.txt fil3.txt
+chmod +x filkommando
+
+complete -f -X '!fil*.txt' filkommando
